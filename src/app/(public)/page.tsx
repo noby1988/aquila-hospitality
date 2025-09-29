@@ -6,7 +6,7 @@ export default function LandingPage() {
     <main className="relative h-screen w-full">
       {/* Background Image */}
       <Image
-        src="/bg-landing-page.png" // replace with your generated image filename in /public
+        src="/bg-landing-page.jpg" // replace with your generated image filename in /public
         alt="Landing page background"
         fill
         priority
