@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <nav className="flex justify-between items-center px-6 py-4">
       {/* Logo */}
-      <h1 className="text-2xl font-bold">Aquila</h1>
+      <h1 className="text-2xl font-bold"></h1>
 
       {/* Right side: Login + Hamburger */}
       <div className="flex items-center gap-4">
