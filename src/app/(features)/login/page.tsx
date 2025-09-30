@@ -1,9 +1,6 @@
 import Image from "next/image";
-import Navbar from "../../components/layout/Navbar";
-import Hero from "../../components/hero/Hero";
-import Footer from "../../components/layout/Footer";
 
-export default function LandingPage() {
+export default function LoginPage() {
   return (
     <main className="relative h-screen w-full">
       {/* Background Image */}
@@ -19,11 +16,7 @@ export default function LandingPage() {
       <div className="absolute inset-0 bg-black/40" />
 
       {/* Foreground content */}
-      <div className="relative z-10 flex flex-col min-h-screen">
-        <Navbar />
-        <Hero />
-        <Footer />
-      </div>
+      <div className="relative z-10 flex flex-col min-h-screen"></div>
     </main>
   );
 }

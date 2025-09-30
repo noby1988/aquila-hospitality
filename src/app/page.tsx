@@ -1,2 +1,2 @@
-import LandingPage from "./(public)/page";
-export default LandingPage;
+import LoginPage from "./(features)/login/page";
+export default LoginPage;
